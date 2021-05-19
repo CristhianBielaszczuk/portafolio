@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Cristhian Bielaszczuk</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <span class="nav__section" style="--i:0;"></span>
+        <span class="nav__section" style="--i:1;"></span>
+        <span class="nav__section" style="--i:2;"></span>
+        <span class="nav__section" style="--i:3;"></span>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Inicio</a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#aboutMe" class="menu__link">Sobre mí</a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#myProjects" class="menu__link">Mis trabajos</a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#skills" class="menu__link">Habilidades</a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#myServices" class="menu__link">¿Qué puedo ofrecer?</a>
+          </li>
+
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="roundButton roundButton--menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="circle">
+        <div class="welcome-info">
+            <h2>¡Bienvenidos!</h2>
+            <h3>Desliza hacia abajo</h3>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+        
+        <div class="circle-figure" id="circleFigure">
+            <h2 class="circle-title"> Este es mi portafolio </h2>
+        </div>
+    </div>
+
+    <main class="main">
+      <section class="about-me">
+        <h2 class="title title--about-me" id="aboutMe">Sobre mí</h2>
+
+        <div class="about-me__content">
+          <figure class="about-me__figure">
+            <img
+              src="./assets/img/portafolio.jpg"
+              alt="about me"
+              class="about-me__img"
+            />
+          </figure>
+
+          <div class="about-me__text">
+            <h2 class="about-me__name">Cristhian Bielaszczuk</h2>
+            <h3 class="about-me__profession">Desarrollador full stack</h3>
+
+            <p class="about-me__description">
+              Soy un apasionado por el mundo it de 24 años, actualmente
+              estudiando Licenciatura en informatica en la UES21 y me capacito
+              constantemente como autodidacta siempre buscando entender la
+              documentacion de cada tecnologia e implementando las mejores
+              practicas para tener un codigo entendible y limpio.
+            </p>
+
+            <a
+              href="./assets/docs/cv.pdf"
+              target="_blank"
+              class="button button--about-me"
+            >
+              Descargar CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-projects">
+            <h2 class="title" id="myProjects">Mis trabajos</h2>
+
+            <p class="description description--projects">
+                En esta sección podrás ver los últimos trabajos que realicé. Si deseas ver los repositorios, en la sección de contacto encontrarás el botón que te dirige a mi cuenta de Github. Allí podrás ver cada uno de ellos. En todos los proyectos utilicé GIT, para un mejor control de los mismos.
+            </p>
+
+            <div class="my-projects__cards"></div>
+        </section>
+
+      <section class="skills">
+
+        <div class="skills__ctn">
+          <h2 class="title" id="skills">Habilidades</h2>
+
+          <p class="description description--skills">
+            Hace dos años comence con un curso de full stack con la empresa
+            digital house, en donde inicie con HTML5, CSS3, Boostrap,
+            PHP/Laravel, SQL y como autodidacta me introduje en el mundo de
+            Javascript con conocimientos sobre el estandar ECMAScript 6 y
+            actualmente indagando en reactJS.
+          </p>
+
+          <div class="skills-slider">
+            <div class="swiper-container">
+              <!-- SLIDER CONTENT -->
+              <div class="swiper-wrapper"></div>
+
+              <!-- SLIDER BUTTONS -->
+              <div class="button-prev"><i class="fas fa-chevron-left"></i></div>
+              <div class="button-next">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-cards">
+            <h2 class="title title--competencies">Aptitudes</h2>
+            <div class="skills-cards__grid grid"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="my-services">
+        <h2 class="title" id="myServices">¿Qué puedo ofrecer?</h2>
+
+        <div class="my-services__text">
+          <p class="description description--services">
+            Con mis conocimientos puedo aportar valor a una empresa, me apasiona
+            el area de programacion por lo cual uno de mis objetivos es aprender
+            cosas nuevas para poder brindar mejor servicio.
+          </p>
+
+          <a href="#contact" class="button button--services">Contáctame</a>
+        </div>
+
+        <div class="my-services__grid grid"></div>
+      </section>
+    </main>
+
+    <a href="#" class="roundButton roundButton--bottom">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <footer class="contact" id="contact">
+      <h2 class="title title--contact">Contacto</h2>
+
+      <p class="description description--contact">
+        ¿Deseas enviarme un mensaje? Contáctame, responderé tu mensaje a la
+        brevedad. Siempre estoy abierto a escuchar nuevas oportunidades y/o
+        propuetas.
+      </p>
+
+      <h4 class="contact__subtitle">¡Envíame un correo!</h4>
+
+      <form class="contact-form" novalidate autocomplete="off" method="POST">
+        <input
+          id="name"
+          class="contact-form__input"
+          type="text"
+          placeholder="Nombre"
+        />
+        <p class="contact-form__error">Nombre inválido</p>
+
+        <input
+          id="email"
+          class="contact-form__input"
+          type="text"
+          placeholder="Email"
+        />
+        <p class="contact-form__error">Correo inválido</p>
+
+        <textarea
+          id="message"
+          class="contact-form__input textarea"
+          placeholder="Mensaje"
+        ></textarea>
+        <p class="contact-form__error">Mensaje inválido</p>
+
+        <p class="contact-form__ok">¡Mensaje enviado correctamente!</p>
+        <button class="contact-form__button" type="submit">Enviar</button>
+      </form>
+
+      <div class="social-media">
+        <a
+          href="https://www.linkedin.com/in/bielaszczuk/"
+          target="_blank"
+          class="social-media__link linkedin"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a
+          href="https://github.com/CristhianBielaszczuk"
+          target="_blank"
+          class="social-media__link github"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a
+          href="https://api.whatsapp.com/send/?phone=5492975143509"
+          target="_blank"
+          class="social-media__link whatsapp"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <p class="copyright">Cristhian Bielaszczuk 2021.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_SbcwWmfWAMhoxmNb7ksA6");
+      })();
+    </script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
