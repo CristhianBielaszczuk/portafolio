@@ -50,7 +50,7 @@ const circleTitle = document.querySelector(".circle-title");
 window.addEventListener("scroll", () => {
   const value = window.scrollY;
   circle.style.clipPath = `circle( ${value}px at 50% 60% )`;
-  circleTitle.style.left = `${100 - value / 10}%`;
+  circleTitle.style.left = `${100 - value / 3}%`;
 });
 
 // UPLOAD BUTTON.

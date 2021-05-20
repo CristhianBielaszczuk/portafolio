@@ -119,26 +119,26 @@ export const skills = [
   {
     name: "Resolución de problemas",
     description:
-      "Comencé a estudiar programación porque me daba mucha satisfacción resolver problemas informáticos de chico.",
-    img: `${skillsImgUrl}/problems.svg`,
+      "Siempre busco recolectar la mayor cantidad de información para realizar un proceso de solución a diferentes problemas de manera eficiente.",
+    img: `${skillsImgUrl}/resolucion.svg`,
   },
   {
     name: "Trabajo en equipo",
     description:
-      "Me gusta aportar mi grano de arena en un grupo de trabajo, ayudando a mis compañeros y aprendiendo de ellos al mismo tiempo.",
-    img: `${skillsImgUrl}/team.svg`,
+      "Conocedor y experimentado en metodologias agiles como SCRUM para el trabajo en equipo, tratando de ayudar y aprender de mis compañeros.",
+    img: `${skillsImgUrl}/trabajoequipo.svg`,
   },
   {
-    name: "Organización",
+    name: "Soft skills",
     description:
-      "Soy una persona ordenada y organizada en todos los aspectos de mi vida. Intento siempre reflejar lo mismo en mi código.",
-    img: `${skillsImgUrl}/organization.svg`,
+      "Constantemente desarrollando y mejorando mis habilidades interpersonales para un trabajo mas optimo.",
+    img: `${skillsImgUrl}/soft.svg`,
   },
   {
-    name: "Gestión del tiempo",
+    name: "Proactividad",
     description:
-      "Planifico y organizo lo mejor posible las tareas que debo realizar, para llegar a ser más eficiente y productivo.",
-    img: `${skillsImgUrl}/time.svg`,
+      "Instruyendome todo el tiempo, tanto de manera autodidacta como univiersitaria con mucho hambre de aprendizaje.",
+    img: `${skillsImgUrl}/Proactividad.svg`,
   },
 ];
 
@@ -159,28 +159,28 @@ const servicesImgIrl = "./assets/img/services";
 
 export const myServices = [
   {
-    name: "Buenas prácticas",
+    name: "Flexibilidad y Adaptacion",
     description:
-      "Intento siempre escribir mi código utilizando las mejores prácticas, para que sea más legible y entendible.",
-    img: `${servicesImgIrl}/best-practices.svg`,
+      "Flexibilidad y capacidad para adaptarme a diferentes entornos y tiempos sin dificultad.",
+    img: `${servicesImgIrl}/flex.svg`,
   },
   {
-    name: "Responsive design",
+    name: "Modern desing",
     description:
-      "En todos mis proyectos aplico Responsive Web Design. También utilizo la metodología BEM cuando trabajo con CSS y/o SASS",
-    img: `${servicesImgIrl}/responsive-design.svg`,
+      "Aplicando buenas practicas para construir diseños modernos con las ultimas tecnologias.",
+    img: `${servicesImgIrl}/modern.svg`,
   },
   {
-    name: "Creatividad",
+    name: "colaboración",
     description:
-      "Además resolver problemas de programación, me gusta mucho diseñar la UX/UI de los proyectos, es allí cuando puedo expresar toda mi creatividad.",
-    img: `${servicesImgIrl}/creativity.svg`,
+      "Siempre predispuesto a colaborar con mis compañeros de equipo para sortear las dificultades que se vayan presentando en cada proyecto.",
+    img: `${servicesImgIrl}/colab.svg`,
   },
   {
-    name: "Dinamismo",
+    name: "pensamiento critico",
     description:
-      "Soy una persona que siempre está en constante movimiento, aprendiendo e indagando cosas nuevas.",
-    img: `${servicesImgIrl}/dynamism.svg`,
+      "Capacidad de analizar y evaluar la consistencias de diversos razonamientos para llegar a una solución acertada de los problemas.",
+    img: `${servicesImgIrl}/critic.svg`,
   },
 ];
 
